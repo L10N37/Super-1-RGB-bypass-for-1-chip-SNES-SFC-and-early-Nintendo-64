@@ -15,8 +15,8 @@ A: He lost the sync attenuating resistor
 
 B: He's using a dejitter mod and used a 75r resistor for sync attenuation
 
-Now, I haven't had any issues with sync on NTSC SFC via OSSC for some reason but i quickly calculated that you'd want about a 180r to 200r resistor inline from the
+Now, I haven't had any issues with sync on NTSC SFC via OSSC for some reason, but i quickly calculated that you'd want about a 180r to 200r resistor inline from the
 dejitter sync out, across to the Super-1 Sync pad. This will give you ~700mV peak to peak which is inline with 75r C sync. 200r calculates to 0.682v and 180 to 0.735v.
-Keep in mine we are reducing a 2.5v peak to peak load here and not a full 5v TTL. I'd suggest throwing one in heatshrink with wire each end forming a nice neat, inline resistor wire length. This only applies to straight through TTL C sync cable/ Sync over composite cable. You would jump J1 as well, and if using or planning to use Sync-Over-Composite SCART cable and have disabled composite output, also jump J2.
+Keep in mind we are reducing a 2.5v peak to peak load here and not a full 5v TTL. I'd suggest throwing one in heatshrink with wire each end forming a nice neat, inline resistor wire length. This only applies to straight through TTL C sync cable/ Sync over composite cable. You would jump J1 as well, and if using or planning to use Sync-Over-Composite SCART cable and have disabled composite output, also jump J2.
 
 My twitter is @vajskid ...if you really get stuck.
