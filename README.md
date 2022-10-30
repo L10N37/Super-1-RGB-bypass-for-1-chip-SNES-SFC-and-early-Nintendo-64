@@ -4,6 +4,8 @@ An RGB bypass board for 1-chip SNES/ SFC consoles (Phat & JR). Corrects brightne
 RGB may be used to encode the other signals (composite/ S video)
 hence, the install methods may kill these outputs. Leaving the factory coupling caps in place will retain the outputs.
 
+Also suits early Nintendo 64 revisions ('easy RGB moddable' revisions such as NUS-CPU-01, NUS-CPU-02, NUS-CPU-03, NUS-CPU-04 and some PAL ones - please check first!)
+
 
 
 Update for people using DeJitter mod:
