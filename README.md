@@ -1,4 +1,4 @@
-# Super-1-RGB-bypass-for-1-chip-SNES-SFC
+# Super-1-RGB-bypass-for-1-chip-SNES-SFC-and-early-Nintendo-64
 
 An RGB bypass board for 1-chip SNES/ SFC consoles (Phat & JR). Corrects brightness and wash out issues, same board/ components for both PHAT / JR, attenuated to 0.7vpp output (correct video standards). Uses an LT6550 driver.
 RGB may be used to encode the other signals (composite/ S video)
