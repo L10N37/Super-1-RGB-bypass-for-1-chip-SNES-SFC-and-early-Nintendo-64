@@ -22,3 +22,6 @@ dejitter sync out, across to the Super-1 Sync pad. This will give you ~700mV pea
 Keep in mind we are reducing a 2.5v peak to peak load here and not a full 5v TTL. I'd suggest throwing one in heatshrink with wire each end forming a nice, neat inline resistor wire length. This only applies to straight through TTL C sync cable/ Sync over composite cable. You would jump J1 as well, and if using or planning to use Sync-Over-Composite SCART cable and have disabled composite output, also jump J2.
 
 My twitter is @vajskid ...if you really get stuck.
+
+Note: the guides don't cover sync on luma which is option if you are using phat 1-chip models.
+In this case, you can completely ignore the sync jumpers (leave them open) and not install the sync attenuation resistor.
