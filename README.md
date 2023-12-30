@@ -30,3 +30,23 @@ My twitter is @vajskid ...if you really get stuck.
 
 Note: the guides don't cover sync on luma which is option if you are using phat 1-chip models.
 In this case, you can completely ignore the sync jumpers (leave them open) and not install the sync attenuation resistor.
+
+
+
+Some results with a cheap unshielded RGB cable, jumpered to route 75r C sync down the composite video line with the onboard attenuation resistor (often this is found in the cable). More photos can be found in the photo folder.
+
+<p align="center">
+  <img src=Photos/20220622_121838.jpg>
+</p>
+
+<p align="center">
+  <img src=Photos/20220622_120940.jpg>
+</p>
+
+<p align="center">
+  <img src=Photos/20220622_121721.jpg>
+</p>
+
+<p align="center">
+  <img src=Photos/20220621_193000.jpg>
+</p>
