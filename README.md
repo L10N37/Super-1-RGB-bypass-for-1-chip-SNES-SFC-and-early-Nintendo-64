@@ -163,7 +163,7 @@ Some RGB SCART cables already include a **sync attenuation resistor**.
 
 ### Jumper notes
 
-- **J1:** enable sync path  
+- **J1:** enable sync path for pre attenuated cables (sync attenuaton resistor in cable) or when wanting TTL sync pass through, otherwise install the appropriate sync attenuation resistor on the footprint for your use case
 
 - **J2:** routes **properly attenuated (~75Ω) C-sync onto the composite video line**
 
