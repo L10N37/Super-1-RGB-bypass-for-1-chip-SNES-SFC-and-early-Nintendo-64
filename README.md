@@ -217,3 +217,36 @@ More photos available in the `Photos` folder.
 If you get stuck:
 
 **@vajskid**
+
+
+## PAL SNES Console Users Warning
+
+Many PAL Super Nintendo consoles place **+12V on AV multi-out pin 3**. On NTSC consoles this pin is commonly used for **C-sync**.
+
+Using an NTSC C-sync cable on an unmodified PAL console may send **12V into connected scalers, switches, or displays**, which can cause damage.
+
+**For safe installation, disconnect/cut the original pin 3 trace** so the factory +12V feed is isolated. The Super 1 board can then route the desired sync signal back to pin 3.
+
+### Selectable Sync Output Options
+
+- **75Ω attenuated C-sync** – recommended for most displays, scalers, and straight-through sync cables  
+- **Pass-through / full-level C-sync** – use if you require **TTL C-sync output at the AV port**  
+- **Pass-through with resistor cable** – use if your cable already contains the required attenuation resistor for 75Ω C-sync  
+- **Sync on Luma** – use with a compatible sync-on-luma RGB cable
+
+### Important
+
+If **pass-through / full-level C-sync** is selected:
+
+- A **straight-through cable** will pass TTL sync directly to the connected device  
+- A cable with a **built-in sync resistor** will attenuate the signal to 75Ω level before reaching the device
+
+### SNES Jr Compatibility
+
+Sync on Luma cables can also be used on SNES Jr consoles when using S-Video / luma restore functions.
+
+### Always Check
+
+Always verify your cable wiring, sync attenuation, and equipment sync requirements before use.
+
+The board is essentially designed for NTSC SNES / SFC AV standards. A PAL console with the modification should be treated as an NTSC system in regards to AV out / cable options BUT sever the 12v trace to pin 3.
